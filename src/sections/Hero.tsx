@@ -15,10 +15,12 @@ export default function Hero() {
                     />
                 </div>
 
-                <div className="absolute -right-64 -top-16 hidden lg:block">
+                <div className="absolute -right-64 -top-16 hidden lg:block ">
                     <Image 
                     src={designExample2Image}
                     alt="design image"
+                    height={450}
+                    width={350}
                     />
                 </div>
 
@@ -45,7 +47,7 @@ export default function Hero() {
                 </p>
 
                 <form className="flex border border-white/15 rounded-full mt-8 p-2 max-w-lg mx-auto">
-                    <input type="email" placeholder="Enter your email" className="bg-transparent outline-none px-4 w-40  flex-1"/>
+                    <input type="email" placeholder="Enter your email" className="bg-transparent outline-none px-4 flex-1 w-full"/>
                   
                     <Button className="whitespace-nowrap " variant="primary" size="sm">Sign up</Button>
                 </form>
