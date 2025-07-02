@@ -2,7 +2,7 @@ import { type IntegrationType } from "@/sections/Integrations";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 
-export default function (props: { integrations: IntegrationType;
+export default function IntegrationsCol (props: { integrations: IntegrationType;
     className?: string;
  }) {
     const { integrations, className } = props;
