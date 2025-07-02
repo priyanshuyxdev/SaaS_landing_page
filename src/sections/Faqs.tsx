@@ -27,7 +27,7 @@ const faqs = [
 export default function Faqs() {
     const selectedIndex = 0;
     return (
-        <section className="py-24">
+        <section id="faqs" className="py-24">
             <div className="container">
                 <div className="flex justify-center items-center">
                     <Tag>Faqs</Tag>

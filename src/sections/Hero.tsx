@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Hero() {
     return (
-        <section className="py-24 overflow-x-clip">
+        <section id="hero" className="py-24 overflow-x-clip">
             <div className="container relative">
                 <div className="absolute -left-36 top-16 hidden lg:block">
                     <Image 
@@ -41,7 +41,7 @@ export default function Hero() {
                     Impactful design, created effortlessly
                 </h1>
                 <p className="text-xl mt-8 text-white/50 text-center max-w-2xl mx-auto">
-                    Design tools shouldn't slow you down. Layers combines
+                    Design tools shouldn&rsquo;t slow you down. Layers combines
                     powerful features with an intuitive interface that keeps you
                     in your creative flow.
                 </p>
