@@ -14,7 +14,7 @@ export default function Introduction() {
 
                 <span className="text-white/15">{text}</span>
 
-                <span className="text-lime-400 block">That's why we built Layers.</span>
+                <span className="text-lime-400 block">That&rsquo;s why we built Layers.</span>
                 </div>
         </div>
     </section>
