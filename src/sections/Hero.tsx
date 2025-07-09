@@ -71,7 +71,7 @@ export default function Hero() {
                     ref={leftscope}
                     initial={{ opacity: 0, y: 100, x: -100 }}
                     drag
-                    className="absolute -left-36 top-16 hidden lg:block"
+                    className="absolute -left-52 top-16 hidden lg:block"
                     dragConstraints={{
                         top: -100,
                         left: -100,
@@ -117,7 +117,7 @@ export default function Hero() {
                 <motion.div
                     ref={rightpointerscope}
                     initial={{ opacity: 0, y: 200, x: 500 }}
-                    className="absolute right-80 -top-4 hidden lg:block"
+                    className="absolute right-52 top-11 hidden lg:block"
                 >
                     <Pointer name="Peter" color="red" />
                 </motion.div>
